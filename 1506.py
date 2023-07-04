@@ -16,9 +16,10 @@ def strcounter(s): # O (N^2) = 36
         print(sym,count)
 strcounter('abcnra')'''
 
-def strcounter(s):
-    syms_counter = {}
-    for sym in s:
-        syms_counter[sym] = syms_counter.get(sym, 0) + 1
-
-print ('whatever')
+a = input('Введите слово на проверку: ').lower()
+def f(a):
+    b = a[::-1].lower()
+    if b == a:
+        print(True)
+    else:
+        print(False)
