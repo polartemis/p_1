@@ -1,0 +1,29 @@
+h1 {
+    background: pink;
+    color: white;
+}
+h3 {
+    background: pink;
+    color: white;
+}
+
+.paragraph-1 {
+    border-radius: 5px;
+    background: blue;
+    font-size: 16pt;
+    color: pink;
+}
+.paragraph-2 {
+    border: 10px solid pink;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    font-size: 16pt;
+    color: blue;
+}
+.paragraph-3 {
+    font-weight: bold;
+    font-size: 22px;
+    font-family: Arial;
+}
